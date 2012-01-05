@@ -28,11 +28,16 @@ Future:			mssql, oracle, postgre
 				error handling
 				query processing (create secure query with arrays)
 
-******/
 define("HOST",			"localhost");
 define("SOURCE",		"dbfairminds");
 define("USER",			"fairmindsdbadmin");
 define("WW",			"idUS67#(");
+******/
+
+define("HOST",			"localhost");
+define("SOURCE",		"dbfms");
+define("USER",			"fmsdbadmin");
+define("WW",			"JD&@72is");
 
 class DB {
 

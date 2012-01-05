@@ -41,10 +41,15 @@ define('WS_PATH_CORE', WS_PATH_ROOT . '_core/');				// application core
 // DEFINE: database connection settings
 
 
-define('DB_SERVER','localhost');				// database server address, 'localhost' is often used when db resides on local machine
-define('DB_NAME', 'dbfairminds');				// database name
-define('DB_USER', 'fairmindsdbadmin');			// database user 
-define('DB_PASS','idUS67#(');					// database user password
+define('DB_SERVER_OLD','localhost');				// database server address, 'localhost' is often used when db resides on local machine
+//define('DB_NAME_OLD', 'dbfairminds');				// database name
+//define('DB_USER_OLD', 'fairmindsdbadmin');		// database user 
+//define('DB_PASS_OLD','idUS67#(');					// database user password
+
+define('DB_NAME_OLD', 'dbfms');
+define('DB_USER_OLD', 'fmsdbadmin');
+define('DB_PASS_OLD', 'JD&@72is');
+
 define('DB_PCONNECT', false);					// use persistant connections
 
 
